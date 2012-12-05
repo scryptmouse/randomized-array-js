@@ -6,7 +6,7 @@
 ```javascript
 var Randomized = require('randomized-array');
 
-var random = new Randomized(['foo', 'bar', baz', 'quux', 'cats']);
+var random = new Randomized(['foo', 'bar', 'baz', 'quux', 'cats']);
 
 // Use random.fn.get() to get random element(s). With no parameters, defaults to one.
 console.log(random.get());
